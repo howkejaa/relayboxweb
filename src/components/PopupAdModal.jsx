@@ -3,7 +3,7 @@ import { X, ExternalLink } from 'lucide-react';
 import { supabase, isSupabaseConfigured } from '../lib/supabaseClient';
 
 const COOLDOWN_MS = 6 * 60 * 1000; // Jeda 6 menit
-const INITIAL_DELAY_MS = 3000; // Muncul 3 detik setelah membuka halaman
+const INITIAL_DELAY_MS = 10000; // Muncul 3 detik setelah membuka halaman
 const LAST_SHOWN_KEY = 'relaybox_popup_ad_last_shown';
 const LAST_AD_ID_KEY = 'relaybox_popup_ad_last_id';
 
